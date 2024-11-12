@@ -21,10 +21,3 @@
 
 # 3. Langkah 3 menambahkan dua metode di dalam class Plan: completedCount: Menghitung jumlah tugas yang selesai (task.complete == true) dengan cara memfilter daftar tasks dan menghitung panjangnya. completenessMessage: Mengembalikan pesan yang menunjukkan progres tugas, yaitu jumlah tugas selesai dibandingkan total tugas. Kedua metode ini digunakan untuk memberikan informasi tentang status tugas yang selesai di dalam Plan.
 
-# PRAKTIKUM 3 
-
-![multiple screen](assets/multiplescreen1.jpg)
-![multiple screen](assets/multiplesscreen2.jpg)
-![multiple screen](assets/plan-multipleScreen.gif)
-
-# 2. Diagram ini menunjukkan struktur widget dan alur navigasi pada aplikasi Flutter untuk praktik master plan: Struktur Awal (Kiri): Aplikasi dimulai dengan MaterialApp, diikuti oleh PlanProvider dan PlanCreatorScreen. Dalam PlanCreatorScreen, terdapat Column dengan TextField (input teks) dan Expanded yang berisi ListView untuk menampilkan daftar. Navigasi dengan Navigator Push: Panah menunjukkan navigasi menggunakan Navigator.push ke layar baru, yaitu PlanScreen. Struktur Layar Setelah Navigasi (Kanan): PlanScreen memiliki Scaffold sebagai struktur utama. Di dalamnya terdapat Column dengan Expanded, SafeArea, ListView, dan Text untuk memastikan konten tampil rapi di area yang aman.
